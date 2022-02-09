@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "name": "web-framework",
+  "version": "1.0.0",
+  "description": "barebone web framework references from https://marionettejs.com/docs/current/ ,https://backbonejs.org/",
+  "main": "index.js",
+  "scripts": {
+    "pre": "npm i -g json-server && npm i -g parcel",
+    "start:server": "json-server -w db.json",
+    "start": "parcel index.html"
+  },
+  "author": "majo manoj",
+  "license": "MIT"
+}
